@@ -1,34 +1,16 @@
-body {
-  background-color: orange;
-  display: flex;
-  height: 100vh;
+* {
+  box-sizing: border-box;
 }
 
-.mobie,
-.tablet,
-.pc {
-  margin: auto;
-  font-size: 100px;
-  color: #fff;
-  display: none;
+.body {
+  margin: 0;
+  background-color: orba(0, 0, 0, 0.35);
 }
-
-/* Mobie: width < 740px */
-@media only screen and (max-width: 739px) {
-  .mobie {
-    display: block;
-  }
-}
-/*Tablet: width >= 740px and width <1024px */
-@media screen and (min-width:46.25em) and (max-width:63.9375em) {
-  .tablet {
-    display: block;
-  }
-}
-
-/*Pc: width >= 1024px */
-@media only screen and ( min-width: 64em) {
-  .pc {
-    display: block;
-  }
+.main {
+  width: 1200px;
+  min-height: 100vh;
+  max-width: 100%;
+  margin: 10px auto 360px;
+  background-color: #fff;
+  padding-bottom: 20px;
 }
