@@ -10,3 +10,23 @@
   font-size: 1.2rem;
   color: #737373;
 }
+
+.header__card-heading {
+  text-align: left;
+  margin: 8px 0 8px 12px;
+  font-size: 1.4rem;
+  color: #999;
+  font-weight: 400;
+}
+
+.header__card-list-item {
+  padding-left: 0;
+  list-style: none;
+  height: 56vh;
+  overflow-y: auto;
+}
+
+.header__card-item {
+  display: flex;
+  align-items: center;
+}
